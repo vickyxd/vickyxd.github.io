@@ -1,51 +1,51 @@
 body {
-  margin: 0;
-  font-family:cursive;
-  font-size: 17px;
-  color:black;
-  line-height: 1.6;
-}
-
-.background {
-  background: url("https://www.wallpapermaiden.com/image/2016/10/17/anime-girl-brown-hair-black-dress-gloves-anime-7721.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#showcase {
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0 20px;
-}
-
-#showcase h1 {
-  font-size: 40px;
-  line-height: 1.2;
-}
-
-#showcase .button {
-  font-size: 18px;
-  text-decoration: none;
-  color: black;
-  border: black 2px solid;
-  padding: 10px 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-#showcase .button:hover {
-  background: black;
-  color: #fff;
-}
-
-#showcase .button:active {
-  background-color: black;
-  box-shadow: 0 1px black;
-  transform: translateY(4px);
-}
+    margin: 0;
+    font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 17px;
+    color:black;
+    line-height: 1.6;
+  }
+  
+  .background {
+    background: url("https://images3.alphacoders.com/795/thumb-1920-795618.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #showcase {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  #showcase h1 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  
+  #showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    border: black 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  #showcase .button:hover {
+    background: black;
+    color: #fff;
+  }
+  
+  #showcase .button:active {
+    background-color: black;
+    box-shadow: 0 1px black;
+    transform: translateY(4px);
+  }

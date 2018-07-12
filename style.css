@@ -1,58 +1,52 @@
 body {
-  font-family: sans-serif;
-  font-size: 17px;
-  color: #fff;
-  line-height: 2;
+	color: #fff;
 }
-
 .background {
-  background: url("https://steamuserimages-a.akamaihd.net/ugc/177163242879595641/FC70363885D3E36A8FC57A1DB612F22F90B37CEB/");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background: url("https://steamuserimages-a.akamaihd.net/ugc/177163242879595641/FC70363885D3E36A8FC57A1DB612F22F90B37CEB/");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-
-.showcase {
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0 20px;
+.mid {
+	padding-top: 20vh;
 }
-
-.showcase h1 {
-  font-size: 65px;
-  line-height: 0;
-  text-decoration: underline;
-  text-decoration-style: dashed;
+.btn-space {
+	margin-top: 10px;
 }
-
+.h1 {
+	font-size: 65px;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
 .h2 {
-  font-size: 25px;
-  text-decoration: underline;
-  text-decoration-style: dashed;
+	font-size: 25px;
+	text-decoration: underline;
+	text-decoration-style: dashed;
 }
-
-.showcase .button {
-  font-size: 18px;
-  text-decoration: none;
-  color: #fff;
-  border: #fff 1.5px solid;
-  padding: 10px 20px;
-  border-radius: 90px;
-  margin-top: 20px;
+.bg-primary {
+	background: linear-gradient(to right, #000, #fff)!important;
 }
-
-.showcase .button:hover {
-  background: #fff;
-  color: #000;
+.dropdown-item {
+	border: 1px solid #000;
+	margin-top: 10px;
+	background: linear-gradient(to right, #000, #fff)!important;
+	color: #fff;
 }
-
-.showcase .button:active {
-  background-color: #fff;
-  box-shadow: 0 1px #fff;
-  transform: translateY(4px);
+.dropdown-menu {
+	padding: 10px;
+	background-color: #000;
+}
+.btn {
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+	border: #fff 1.5px solid;
+	padding: 10px 20px;
+	border-radius: 90px;
+	margin-top: 20px;
+}
+.btn:hover {
+	background: #fff;
+	color: #000;
 }
